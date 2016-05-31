@@ -99,7 +99,7 @@
 		18356F7C1CE18B7600D69F42 /* Afx */ = {
 			isa = PBXGroup;
 			children = (
-				944589A21CFD5F0600A06ED6 /* Class */,
+				9487DA9B1CFD894B000CB9A9 /* Class */,
 				18356F801CE18B7600D69F42 /* AppDelegate.h */,
 				18356F811CE18B7600D69F42 /* AppDelegate.m */,
 				18356F831CE18B7600D69F42 /* ViewController.h */,
@@ -138,139 +138,147 @@
 			path = AfxUITests;
 			sourceTree = "<group>";
 		};
-		944589A21CFD5F0600A06ED6 /* Class */ = {
+		9487DA9B1CFD894B000CB9A9 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				944589A31CFD5F0600A06ED6 /* Controller */,
-				944589A41CFD5F0600A06ED6 /* Libraries */,
-				944589A51CFD5F0600A06ED6 /* Model */,
-				944589A61CFD5F0600A06ED6 /* Module */,
-				944589AF1CFD5F0600A06ED6 /* Resources */,
-				944589B01CFD5F0600A06ED6 /* Tool */,
-				944589B21CFD5F0600A06ED6 /* View */,
+				9487DA9C1CFD894B000CB9A9 /* Base */,
+				9487DAA01CFD894B000CB9A9 /* Libraries */,
+				9487DAA11CFD894B000CB9A9 /* Module */,
+				9487DAAA1CFD894B000CB9A9 /* Resource */,
+				9487DAAB1CFD894B000CB9A9 /* Tool */,
 			);
 			path = Class;
 			sourceTree = "<group>";
 		};
-		944589A31CFD5F0600A06ED6 /* Controller */ = {
+		9487DA9C1CFD894B000CB9A9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9487DA9D1CFD894B000CB9A9 /* Controller */,
+				9487DA9E1CFD894B000CB9A9 /* Model */,
+				9487DA9F1CFD894B000CB9A9 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9487DA9D1CFD894B000CB9A9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		944589A41CFD5F0600A06ED6 /* Libraries */ = {
+		9487DA9E1CFD894B000CB9A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9487DA9F1CFD894B000CB9A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9487DAA01CFD894B000CB9A9 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		944589A51CFD5F0600A06ED6 /* Model */ = {
+		9487DAA11CFD894B000CB9A9 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		944589A61CFD5F0600A06ED6 /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				944589A71CFD5F0600A06ED6 /* Contact */,
-				944589A81CFD5F0600A06ED6 /* Discover */,
-				944589A91CFD5F0600A06ED6 /* Main */,
-				944589AD1CFD5F0600A06ED6 /* Other */,
-				944589AE1CFD5F0600A06ED6 /* Profile */,
+				9487DAA21CFD894B000CB9A9 /* Contact */,
+				9487DAA31CFD894B000CB9A9 /* Discover */,
+				9487DAA41CFD894B000CB9A9 /* Main */,
+				9487DAA81CFD894B000CB9A9 /* Message */,
+				9487DAA91CFD894B000CB9A9 /* Profile */,
 			);
 			path = Module;
 			sourceTree = "<group>";
 		};
-		944589A71CFD5F0600A06ED6 /* Contact */ = {
+		9487DAA21CFD894B000CB9A9 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Contact;
 			sourceTree = "<group>";
 		};
-		944589A81CFD5F0600A06ED6 /* Discover */ = {
+		9487DAA31CFD894B000CB9A9 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		944589A91CFD5F0600A06ED6 /* Main */ = {
+		9487DAA41CFD894B000CB9A9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				944589AA1CFD5F0600A06ED6 /* Controller */,
-				944589AB1CFD5F0600A06ED6 /* Model */,
-				944589AC1CFD5F0600A06ED6 /* View */,
+				9487DAA51CFD894B000CB9A9 /* Controller */,
+				9487DAA61CFD894B000CB9A9 /* Model */,
+				9487DAA71CFD894B000CB9A9 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		944589AA1CFD5F0600A06ED6 /* Controller */ = {
+		9487DAA51CFD894B000CB9A9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		944589AB1CFD5F0600A06ED6 /* Model */ = {
+		9487DAA61CFD894B000CB9A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		944589AC1CFD5F0600A06ED6 /* View */ = {
+		9487DAA71CFD894B000CB9A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		944589AD1CFD5F0600A06ED6 /* Other */ = {
+		9487DAA81CFD894B000CB9A9 /* Message */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Other;
+			path = Message;
 			sourceTree = "<group>";
 		};
-		944589AE1CFD5F0600A06ED6 /* Profile */ = {
+		9487DAA91CFD894B000CB9A9 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		944589AF1CFD5F0600A06ED6 /* Resources */ = {
+		9487DAAA1CFD894B000CB9A9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Resources;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		944589B01CFD5F0600A06ED6 /* Tool */ = {
+		9487DAAB1CFD894B000CB9A9 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				944589B11CFD5F0600A06ED6 /* Manager */,
+				9487DAAC1CFD894B000CB9A9 /* Manager */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		944589B11CFD5F0600A06ED6 /* Manager */ = {
+		9487DAAC1CFD894B000CB9A9 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Manager;
-			sourceTree = "<group>";
-		};
-		944589B21CFD5F0600A06ED6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
