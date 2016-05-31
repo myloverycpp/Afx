@@ -99,6 +99,7 @@
 		18356F7C1CE18B7600D69F42 /* Afx */ = {
 			isa = PBXGroup;
 			children = (
+				944589A21CFD5F0600A06ED6 /* Class */,
 				18356F801CE18B7600D69F42 /* AppDelegate.h */,
 				18356F811CE18B7600D69F42 /* AppDelegate.m */,
 				18356F831CE18B7600D69F42 /* ViewController.h */,
@@ -135,6 +136,141 @@
 				18356FA41CE18B7700D69F42 /* Info.plist */,
 			);
 			path = AfxUITests;
+			sourceTree = "<group>";
+		};
+		944589A21CFD5F0600A06ED6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				944589A31CFD5F0600A06ED6 /* Controller */,
+				944589A41CFD5F0600A06ED6 /* Libraries */,
+				944589A51CFD5F0600A06ED6 /* Model */,
+				944589A61CFD5F0600A06ED6 /* Module */,
+				944589AF1CFD5F0600A06ED6 /* Resources */,
+				944589B01CFD5F0600A06ED6 /* Tool */,
+				944589B21CFD5F0600A06ED6 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		944589A31CFD5F0600A06ED6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		944589A41CFD5F0600A06ED6 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		944589A51CFD5F0600A06ED6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		944589A61CFD5F0600A06ED6 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				944589A71CFD5F0600A06ED6 /* Contact */,
+				944589A81CFD5F0600A06ED6 /* Discover */,
+				944589A91CFD5F0600A06ED6 /* Main */,
+				944589AD1CFD5F0600A06ED6 /* Other */,
+				944589AE1CFD5F0600A06ED6 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		944589A71CFD5F0600A06ED6 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		944589A81CFD5F0600A06ED6 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		944589A91CFD5F0600A06ED6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				944589AA1CFD5F0600A06ED6 /* Controller */,
+				944589AB1CFD5F0600A06ED6 /* Model */,
+				944589AC1CFD5F0600A06ED6 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		944589AA1CFD5F0600A06ED6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		944589AB1CFD5F0600A06ED6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		944589AC1CFD5F0600A06ED6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		944589AD1CFD5F0600A06ED6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		944589AE1CFD5F0600A06ED6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		944589AF1CFD5F0600A06ED6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		944589B01CFD5F0600A06ED6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				944589B11CFD5F0600A06ED6 /* Manager */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		944589B11CFD5F0600A06ED6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		944589B21CFD5F0600A06ED6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,6 +624,7 @@
 				18356FA91CE18B7700D69F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18356FAA1CE18B7700D69F42 /* Build configuration list for PBXNativeTarget "AfxTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +633,7 @@
 				18356FAC1CE18B7700D69F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18356FAD1CE18B7700D69F42 /* Build configuration list for PBXNativeTarget "AfxUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +642,7 @@
 				18356FAF1CE18B7700D69F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
