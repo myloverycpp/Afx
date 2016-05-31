@@ -14,7 +14,25 @@
 		18356F8D1CE18B7600D69F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18356F8B1CE18B7600D69F42 /* LaunchScreen.storyboard */; };
 		18356F981CE18B7700D69F42 /* AfxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18356F971CE18B7700D69F42 /* AfxTests.m */; };
 		18356FA31CE18B7700D69F42 /* AfxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18356FA21CE18B7700D69F42 /* AfxUITests.m */; };
-		18C0AB4D1CFDE0D500652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB4C1CFDE0D500652A5B /* .gitignore */; };
+		18C0AB7A1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB511CFDE73200652A5B /* .gitignore */; };
+		18C0AB7B1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB531CFDE73200652A5B /* .gitignore */; };
+		18C0AB7C1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB551CFDE73200652A5B /* .gitignore */; };
+		18C0AB7D1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB571CFDE73200652A5B /* .gitignore */; };
+		18C0AB7E1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB591CFDE73200652A5B /* .gitignore */; };
+		18C0AB7F1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB5C1CFDE73200652A5B /* .gitignore */; };
+		18C0AB801CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB5E1CFDE73200652A5B /* .gitignore */; };
+		18C0AB811CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB601CFDE73200652A5B /* .gitignore */; };
+		18C0AB821CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB621CFDE73200652A5B /* .gitignore */; };
+		18C0AB831CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB651CFDE73200652A5B /* .gitignore */; };
+		18C0AB841CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB671CFDE73200652A5B /* .gitignore */; };
+		18C0AB851CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB6A1CFDE73200652A5B /* .gitignore */; };
+		18C0AB861CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB6C1CFDE73200652A5B /* .gitignore */; };
+		18C0AB871CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB6E1CFDE73200652A5B /* .gitignore */; };
+		18C0AB881CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB701CFDE73200652A5B /* .gitignore */; };
+		18C0AB891CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB721CFDE73200652A5B /* .gitignore */; };
+		18C0AB8A1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB741CFDE73200652A5B /* .gitignore */; };
+		18C0AB8B1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB761CFDE73200652A5B /* .gitignore */; };
+		18C0AB8C1CFDE73200652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB781CFDE73200652A5B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +68,25 @@
 		18356F9E1CE18B7700D69F42 /* AfxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18356FA21CE18B7700D69F42 /* AfxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfxUITests.m; sourceTree = "<group>"; };
 		18356FA41CE18B7700D69F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18C0AB4C1CFDE0D500652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB511CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB531CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB551CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB571CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB591CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB5C1CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB5E1CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB601CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB621CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB651CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB671CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB6A1CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB6C1CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB6E1CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB701CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB721CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB741CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB761CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18C0AB781CFDE73200652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +137,7 @@
 		18356F7C1CE18B7600D69F42 /* Afx */ = {
 			isa = PBXGroup;
 			children = (
-				9487DA9B1CFD894B000CB9A9 /* Class */,
+				18C0AB4E1CFDE73200652A5B /* Class */,
 				18356F801CE18B7600D69F42 /* AppDelegate.h */,
 				18356F811CE18B7600D69F42 /* AppDelegate.m */,
 				18356F831CE18B7600D69F42 /* ViewController.h */,
@@ -140,154 +176,204 @@
 			path = AfxUITests;
 			sourceTree = "<group>";
 		};
-		18C0AB4B1CFDE0D500652A5B /* Category */ = {
+		18C0AB4E1CFDE73200652A5B /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				18C0AB4C1CFDE0D500652A5B /* .gitignore */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		9487DA9B1CFD894B000CB9A9 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				9487DA9C1CFD894B000CB9A9 /* Base */,
-				18C0AB4B1CFDE0D500652A5B /* Category */,
-				9487DAA01CFD894B000CB9A9 /* Libraries */,
-				9487DAA11CFD894B000CB9A9 /* Module */,
-				9487DAAA1CFD894B000CB9A9 /* Resource */,
-				9487DAAB1CFD894B000CB9A9 /* Tool */,
+				18C0AB501CFDE73200652A5B /* Base */,
+				18C0AB581CFDE73200652A5B /* Category */,
+				18C0AB5A1CFDE73200652A5B /* Common */,
+				18C0AB611CFDE73200652A5B /* Libraries */,
+				18C0AB631CFDE73200652A5B /* Module */,
+				18C0AB731CFDE73200652A5B /* Resource */,
+				18C0AB751CFDE73200652A5B /* Tool */,
 			);
 			path = Class;
 			sourceTree = "<group>";
 		};
-		9487DA9C1CFD894B000CB9A9 /* Base */ = {
+		18C0AB501CFDE73200652A5B /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				9487DA9D1CFD894B000CB9A9 /* Controller */,
-				9487DA9E1CFD894B000CB9A9 /* Model */,
-				9487DA9F1CFD894B000CB9A9 /* View */,
+				18C0AB511CFDE73200652A5B /* .gitignore */,
+				18C0AB521CFDE73200652A5B /* Controller */,
+				18C0AB541CFDE73200652A5B /* Model */,
+				18C0AB561CFDE73200652A5B /* View */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		9487DA9D1CFD894B000CB9A9 /* Controller */ = {
+		18C0AB521CFDE73200652A5B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB531CFDE73200652A5B /* .gitignore */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		9487DA9E1CFD894B000CB9A9 /* Model */ = {
+		18C0AB541CFDE73200652A5B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB551CFDE73200652A5B /* .gitignore */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		9487DA9F1CFD894B000CB9A9 /* View */ = {
+		18C0AB561CFDE73200652A5B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB571CFDE73200652A5B /* .gitignore */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		9487DAA01CFD894B000CB9A9 /* Libraries */ = {
+		18C0AB581CFDE73200652A5B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB591CFDE73200652A5B /* .gitignore */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18C0AB5A1CFDE73200652A5B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18C0AB5B1CFDE73200652A5B /* Controller */,
+				18C0AB5D1CFDE73200652A5B /* Model */,
+				18C0AB5F1CFDE73200652A5B /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18C0AB5B1CFDE73200652A5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18C0AB5C1CFDE73200652A5B /* .gitignore */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18C0AB5D1CFDE73200652A5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C0AB5E1CFDE73200652A5B /* .gitignore */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18C0AB5F1CFDE73200652A5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C0AB601CFDE73200652A5B /* .gitignore */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C0AB611CFDE73200652A5B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				18C0AB621CFDE73200652A5B /* .gitignore */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		9487DAA11CFD894B000CB9A9 /* Module */ = {
+		18C0AB631CFDE73200652A5B /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				9487DAA21CFD894B000CB9A9 /* Contact */,
-				9487DAA31CFD894B000CB9A9 /* Discover */,
-				9487DAA41CFD894B000CB9A9 /* Main */,
-				9487DAA81CFD894B000CB9A9 /* Message */,
-				9487DAA91CFD894B000CB9A9 /* Profile */,
+				18C0AB641CFDE73200652A5B /* Contact */,
+				18C0AB661CFDE73200652A5B /* Discover */,
+				18C0AB681CFDE73200652A5B /* Main */,
+				18C0AB6F1CFDE73200652A5B /* Message */,
+				18C0AB711CFDE73200652A5B /* Profile */,
 			);
 			path = Module;
 			sourceTree = "<group>";
 		};
-		9487DAA21CFD894B000CB9A9 /* Contact */ = {
+		18C0AB641CFDE73200652A5B /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB651CFDE73200652A5B /* .gitignore */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
 		};
-		9487DAA31CFD894B000CB9A9 /* Discover */ = {
+		18C0AB661CFDE73200652A5B /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB671CFDE73200652A5B /* .gitignore */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		9487DAA41CFD894B000CB9A9 /* Main */ = {
+		18C0AB681CFDE73200652A5B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9487DAA51CFD894B000CB9A9 /* Controller */,
-				9487DAA61CFD894B000CB9A9 /* Model */,
-				9487DAA71CFD894B000CB9A9 /* View */,
+				18C0AB691CFDE73200652A5B /* Controller */,
+				18C0AB6B1CFDE73200652A5B /* Model */,
+				18C0AB6D1CFDE73200652A5B /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		9487DAA51CFD894B000CB9A9 /* Controller */ = {
+		18C0AB691CFDE73200652A5B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB6A1CFDE73200652A5B /* .gitignore */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		9487DAA61CFD894B000CB9A9 /* Model */ = {
+		18C0AB6B1CFDE73200652A5B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB6C1CFDE73200652A5B /* .gitignore */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		9487DAA71CFD894B000CB9A9 /* View */ = {
+		18C0AB6D1CFDE73200652A5B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB6E1CFDE73200652A5B /* .gitignore */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		9487DAA81CFD894B000CB9A9 /* Message */ = {
+		18C0AB6F1CFDE73200652A5B /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB701CFDE73200652A5B /* .gitignore */,
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		9487DAA91CFD894B000CB9A9 /* Profile */ = {
+		18C0AB711CFDE73200652A5B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB721CFDE73200652A5B /* .gitignore */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		9487DAAA1CFD894B000CB9A9 /* Resource */ = {
+		18C0AB731CFDE73200652A5B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB741CFDE73200652A5B /* .gitignore */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		9487DAAB1CFD894B000CB9A9 /* Tool */ = {
+		18C0AB751CFDE73200652A5B /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				9487DAAC1CFD894B000CB9A9 /* Manager */,
+				18C0AB761CFDE73200652A5B /* .gitignore */,
+				18C0AB771CFDE73200652A5B /* Manager */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		9487DAAC1CFD894B000CB9A9 /* Manager */ = {
+		18C0AB771CFDE73200652A5B /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				18C0AB781CFDE73200652A5B /* .gitignore */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -395,8 +481,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C0AB8A1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB8B1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB861CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB801CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB8C1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB7E1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB7B1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB871CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB7D1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB821CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB811CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB7A1CFDE73200652A5B /* .gitignore in Resources */,
 				18356F8D1CE18B7600D69F42 /* LaunchScreen.storyboard in Resources */,
-				18C0AB4D1CFDE0D500652A5B /* .gitignore in Resources */,
+				18C0AB841CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB891CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB851CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB7C1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB7F1CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB831CFDE73200652A5B /* .gitignore in Resources */,
+				18C0AB881CFDE73200652A5B /* .gitignore in Resources */,
 				18356F8A1CE18B7600D69F42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
