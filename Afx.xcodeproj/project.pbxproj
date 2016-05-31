@@ -14,6 +14,7 @@
 		18356F8D1CE18B7600D69F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18356F8B1CE18B7600D69F42 /* LaunchScreen.storyboard */; };
 		18356F981CE18B7700D69F42 /* AfxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18356F971CE18B7700D69F42 /* AfxTests.m */; };
 		18356FA31CE18B7700D69F42 /* AfxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18356FA21CE18B7700D69F42 /* AfxUITests.m */; };
+		18C0AB4D1CFDE0D500652A5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C0AB4C1CFDE0D500652A5B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18356F9E1CE18B7700D69F42 /* AfxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18356FA21CE18B7700D69F42 /* AfxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfxUITests.m; sourceTree = "<group>"; };
 		18356FA41CE18B7700D69F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C0AB4C1CFDE0D500652A5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,10 +140,19 @@
 			path = AfxUITests;
 			sourceTree = "<group>";
 		};
+		18C0AB4B1CFDE0D500652A5B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18C0AB4C1CFDE0D500652A5B /* .gitignore */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		9487DA9B1CFD894B000CB9A9 /* Class */ = {
 			isa = PBXGroup;
 			children = (
 				9487DA9C1CFD894B000CB9A9 /* Base */,
+				18C0AB4B1CFDE0D500652A5B /* Category */,
 				9487DAA01CFD894B000CB9A9 /* Libraries */,
 				9487DAA11CFD894B000CB9A9 /* Module */,
 				9487DAAA1CFD894B000CB9A9 /* Resource */,
@@ -385,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18356F8D1CE18B7600D69F42 /* LaunchScreen.storyboard in Resources */,
+				18C0AB4D1CFDE0D500652A5B /* .gitignore in Resources */,
 				18356F8A1CE18B7600D69F42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
