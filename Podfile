@@ -1,22 +1,28 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, '7.0'
+platform :ios, '8.0'
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
 target "Afx" do
 
-pod 'CYLTabBarController'
-pod 'MJRefresh'
-pod 'Masonry'
-pod 'AFNetworking'
-pod 'SDWebImage'
-pod 'MBProgressHUD'
-pod 'UITableView+FDTemplateLayoutCell'
-pod 'WMPageController'
-pod 'LCActionSheet'
-pod 'DZNEmptyDataSet'
-pod 'SWTableViewCell'
-pod 'DTKDropdownMenu'
+    pod 'Masonry'
+    pod 'SDWebImage'
+    pod 'AFNetworking'
+    pod 'MJExtension'
+    pod 'MJRefresh'
+    pod 'CYLTabBarController'
+    pod 'WMPageController'
+    pod 'SVProgressHUD'
+    pod 'UITableView+FDTemplateLayoutCell'
+    pod 'Reachability'
+    pod 'DateTools'
+    pod 'MLeaksFinder'
+    pod 'FMDB'
+    pod 'YTKKeyValueStore'
+    pod 'DZNEmptyDataSet'
+    pod 'MMPopupView'
+    pod 'AXWebViewController'
+    pod 'Popover.OC'
 
 end
 
