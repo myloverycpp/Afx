@@ -1,0 +1,263 @@
+//
+//  AfxPrefixHeader.pch
+//  Afx
+//
+//  Created by ZMac on 2017/11/21.
+//  Copyright © 2017年 hyy. All rights reserved.
+//
+
+#ifndef AfxPrefixHeader_pch
+#define AfxPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//Log
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"[file:%s]\n" "[function:%s]\n" "[line:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define DLog(...);
+#endif
+
+
+#ifdef __OBJC__
+//#import <Masonry.h>
+#endif
+
+
+//判断是真机还是模拟器
+#if TARGET_OS_IPHONE
+//真机
+#endif
+#if TARGET_IPHONE_SIMULATOR
+//模拟器
+#endif
+
+//ARC 和 MRC
+#if __has_feature(objc_arc)
+// ARC
+#else
+// MRC
+#endif
+
+
+//屏幕宽高
+#define kScreenWidth \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? [UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale : [UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? [UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale : [UIScreen mainScreen].bounds.size.height)
+#define kScreenSize \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? CGSizeMake([UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale,[UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale) : [UIScreen mainScreen].bounds.size)
+
+//常用的缩写
+#define kApplication        [UIApplication sharedApplication]
+#define kKeyWindow          [UIApplication sharedApplication].keyWindow
+#define kAppDelegate        [UIApplication sharedApplication].delegate
+#define kUserDefaults      [NSUserDefaults standardUserDefaults]
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+
+//APP版本号
+#define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+//系统版本号
+#define kSystemVersion [[UIDevice currentDevice] systemVersion]
+
+//版本号判断
+#define IOS7            ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0)
+#define IOS8            ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 8.0)
+#define IOS9            ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 9.0)
+#define IOS10            ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 10.0)
+
+//判断是否为iPhone
+#define kISiPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+//判断是否为iPad
+#define kISiPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+
+//获取沙盒Document路径
+#define kDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+//获取沙盒temp路径
+#define kTempPath NSTemporaryDirectory()
+//获取沙盒Cache路径
+#define kCachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+
+
+//color
+#define RGBColorA(r, g, b, a)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define RGBColor(r, g, b)       RGBColorA(r,g,b,1.0)
+#define RGBColorRandom RGBColorA(arc4random_uniform(256)/255.0, arc4random_uniform(256)/255.0 ,arc4random_uniform(256)/255.0,1.0)
+
+#pragma mark - UIColor宏定义
+#define RGBAColorHex(rgbValue, alphaValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:alphaValue]
+#define RGBColorHex(rgbValue) UIColorFromRGBA(rgbValue, 1.0)
+
+//定义主颜色
+#define RGBMainColor RGBColor(54,172,239)
+
+//字符串是否为空
+#define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+//数组是否为空
+#define kArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+//字典是否为空
+#define kDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
+//是否是空对象
+#define kObjectIsEmpty(_object) (_object == nil \
+|| [_object isKindOfClass:[NSNull class]] \
+|| ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
+|| ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
+
+//数组的长度
+#define DIM_ARRAY(x)  sizeof(x)/sizeof(x[0])
+
+// 弱引用
+#define ZWeakSelf __weak typeof(self) weakSelf = self;
+#define ZStrongSelf __strong __typeof(self) strongSelf = weakSelf;
+
+//弱引用/强引用
+#define kWeakSelf(type)   __weak typeof(type) weak##type = type;
+#define kStrongSelf(type) __strong typeof(type) strongSelf = type;
+
+// 获取时间间隔
+#define kStartTime CFAbsoluteTime start = CFAbsoluteTimeGetCurrent();
+#define kEndTime  NSLog(@"Time: %f", CFAbsoluteTimeGetCurrent() - start)
+
+//宏定义检测block是否可用
+#define BLOCK_EXEC(block, ...) if (block) { block(__VA_ARGS__); };
+/* 宏定义之前的用法
+ if (completionBlock)   {
+ completionBlock(arg1, arg2);
+ }
+ // 宏定义之后的用法
+ BLOCK_EXEC(completionBlock, arg1, arg2);
+ */
+
+
+//GCD - 一次性执行
+#define kDISPATCH_ONCE_BLOCK(onceBlock) static dispatch_once_t onceToken; dispatch_once(&onceToken, onceBlock);
+//GCD - 在Main线程上运行
+#define kDISPATCH_MAIN_THREAD(mainQueueBlock) dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
+//GCD - 开启异步线程
+#define kDISPATCH_GLOBAL_QUEUE_DEFAULT(globalQueueBlock) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), globalQueueBlocl);
+
+
+//安全线程
+#define dispatch_sync_main_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_sync(dispatch_get_main_queue(), block);\
+}
+
+/*
+ dispatch_sync_main_safe((^{
+ 
+ [self.tableView reloadData];
+ 
+ }));
+ */
+
+#define dispatch_async_main_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+
+
+//创建单例宏
+#define SingletonH(name) + (instancetype)shared##name;
+#define SingletonM(name) \
+static id _instance; \
+\
++ (instancetype)allocWithZone:(struct _NSZone *)zone \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instance = [super allocWithZone:zone]; \
+}); \
+return _instance; \
+} \
+\
++ (instancetype)shared##name \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instance = [[self alloc] init]; \
+}); \
+return _instance; \
+} \
+\
+- (id)copyWithZone:(NSZone *)zone \
+{ \
+return _instance; \
+}\
+\
+- (id)mutableCopyWithZone:(NSZone *)zone { \
+return _instance; \
+}
+
+
+//scale
+#define kWidthScale  (([UIScreen mainScreen].bounds.size.width) / 375.0)
+#define kHeightScale (([UIScreen mainScreen].bounds.size.height) / 667.0)
+
+//alert
+#define alertWidth SCREEN_WIDTH - 2 * 30 * kWidthScale
+
+
+// UIScreen width.
+#define  LL_ScreenWidth   [UIScreen mainScreen].bounds.size.width
+
+// UIScreen height.
+#define  LL_ScreenHeight  [UIScreen mainScreen].bounds.size.height
+// iPhone X
+#define  LL_iPhoneX (LL_ScreenWidth == 375.f && LL_ScreenHeight == 812.f ? YES : NO)
+
+// Status bar height.
+#define  LL_StatusBarHeight      (LL_iPhoneX ? 44.f : 20.f)
+
+// Navigation bar height.
+#define  LL_NavigationBarHeight  44.f
+
+// Tabbar height.
+#define  LL_TabbarHeight         (LL_iPhoneX ? (49.f+34.f) : 49.f)
+
+// Tabbar safe bottom margin.
+#define  LL_TabbarSafeBottomMargin         (LL_iPhoneX ? 34.f : 0.f)
+
+// Status bar & navigation bar height.
+#define  LL_StatusBarAndNavigationBarHeight  (LL_iPhoneX ? 88.f : 64.f)
+
+//安全区域
+#define LL_ViewSafeAreInsets(view) ({UIEdgeInsets insets; if(@available(iOS 11.0, *)) {insets = view.safeAreaInsets;} else {insets = UIEdgeInsetsZero;} insets;})
+
+//适配iOS11导航栏
+#define  adjustsScrollViewInsets_NO(scrollView,vc)\
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+if ([UIScrollView instancesRespondToSelector:NSSelectorFromString(@"setContentInsetAdjustmentBehavior:")]) {\
+[scrollView   performSelector:NSSelectorFromString(@"setContentInsetAdjustmentBehavior:") withObject:@(2)];\
+} else {\
+vc.automaticallyAdjustsScrollViewInsets = NO;\
+}\
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+
+//app测试宏
+#ifdef APP_TEST
+
+#define MainUrl @"https://api.xiuren.com/"
+
+#else
+
+#define MainUrl @"https://api.xiuren.com/"
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
